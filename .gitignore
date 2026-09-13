@@ -1,0 +1,47 @@
+# 编译产物
+build/
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+infer_demo
+batch_test
+framework_benchmark
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# 模型大文件（可选，12.5MB可直接传；如需用Git LFS则取消注释）
+# model/*.bin
+# model/*.onnx
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 测试输出
+results/*.jpg
+results/*.txt
+can_dump.txt
+debug_result.txt
+prop_result.txt
