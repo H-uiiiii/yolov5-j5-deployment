@@ -169,6 +169,27 @@ vcan0  102   [8]  02 FF FF FF FF FF FF FF   → 共2个目标，结束
 
 ---
 
+
+---
+
+## 检测效果展示
+
+从 30 张批量测试中挑选的 5 张代表性结果，覆盖不同场景：
+
+| 场景 | 目标数 | 说明 |
+|------|--------|------|
+| 密集车流 | 81 | 高速公路航拍，多车道密集车辆 |
+| 简单场景 | 1 | 单目标，低复杂度 |
+| 典型混合 | 12 | 多车 + 行人混合场景 |
+| 多类别 | 10 | 含交通灯检测 |
+| 卡车场景 | 6 | 卡车为主 |
+
+<img src="results/samples/01_最密集_81目标.jpg" alt="密集车流 81目标" width="32%" /> <img src="results/samples/02_最简单_1目标.jpg" alt="简单场景 1目标" width="32%" /> <img src="results/samples/03_典型_12目标.jpg" alt="典型混合 12目标" width="32%" />
+
+<img src="results/samples/04_多类别_含交通灯.jpg" alt="多类别 含交通灯" width="32%" /> <img src="results/samples/05_卡车场景.jpg" alt="卡车场景" width="32%" />
+
+> 完整 30 张测试结果见 [results/samples/](results/samples/)。
+
 ## 多推理引擎横向对比
 
 详见 [docs/framework_comparison.md](docs/framework_comparison.md)。
